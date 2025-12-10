@@ -91,3 +91,12 @@ function atualizarResumo() {
     document.getElementById("resDespesas").innerText = totalDespesas.toFixed(2);
     document.getElementById("resSaldo").innerText = saldo.toFixed(2);
 }
+function ApagarTudo() {
+    despesas = [];
+    salvar();
+    atualizarLista();
+    atualizarResumo();
+    salario = 0;
+    salvar();
+    atualizarLista();
+    atualizarResumo();
